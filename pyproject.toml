@@ -1,0 +1,14 @@
+[project]
+name = "baocaoketthuchocphan"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Chisadin", email = "tranthanhnam.ccc@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "inquirer>=3.4.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+]
