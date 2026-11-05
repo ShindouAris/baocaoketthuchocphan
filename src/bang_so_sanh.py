@@ -9,7 +9,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from main import ALGOS, TESTDIR, measure, read_case
+from run_test import ALGOS, TESTDIR, measure, read_case
 
 # (file testcase, nhóm theo đề bài, tên tình huống, vì sao chọn)
 CHON = [

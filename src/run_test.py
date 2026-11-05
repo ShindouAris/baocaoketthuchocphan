@@ -101,10 +101,10 @@ if __name__ == "__main__":
     if not ok:
         sys.exit("Co testcase SAI")
     print("Tat ca testcases dung.")
-    N = 1_000_000
-    main = run(N)
-    sc = scaling([100_000, 200_000, 400_000, 800_000, 1_600_000])
-    json.dump(dict(main=main, scaling=sc), open("results.json", "w"), indent=1)
-    print(f"{'Kich ban':42s}{'Thuat toan':12s}{'t_min(ms)':>11s}{'so sanh':>12s}{'khop':>9s}")
-    for r in main:
-        print(f"{r['scenario']:42s}{r['algo']:12s}{r['t_min']*1000:11.1f}{r['cmps']:12d}{r['matches']:9d}")
+    # N = 1_000_000
+    # main = run(N)
+    # sc = scaling([100_000, 200_000, 400_000, 800_000, 1_600_000])
+    # json.dump(dict(main=main, scaling=sc), open("results.json", "w"), indent=1)
+    # print(f"{'Kich ban':42s}{'Thuat toan':12s}{'t_min(ms)':>11s}{'so sanh':>12s}{'khop':>9s}")
+    # for r in main:
+    #     print(f"{r['scenario']:42s}{r['algo']:12s}{r['t_min']*1000:11.1f}{r['cmps']:12d}{r['matches']:9d}")

@@ -19,7 +19,7 @@ from collections import namedtuple
 import inquirer
 
 from thuat_toan.kmp import build_lps
-from main import ALGOS, TESTDIR, read_case
+from run_test import ALGOS, TESTDIR, read_case
 
 NL = chr(10)
 ESC = chr(27)
